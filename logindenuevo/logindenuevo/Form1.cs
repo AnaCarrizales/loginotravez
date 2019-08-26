@@ -30,7 +30,7 @@ namespace logindenuevo
             }
             else
             {
-                MessageBox.Show("Te la pelaste puto, usuario o contrasena no valido");
+                MessageBox.Show("Te la pelaste puto, usuario o contraseña no valido");
                 txtUsuario.Text = "";
                 txtPassword.Text = "";
                 txtUsuario.Focus();
