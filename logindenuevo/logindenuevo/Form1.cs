@@ -35,6 +35,7 @@ namespace logindenuevo
                 txtPassword.Text = "";
                 txtUsuario.Focus();
             }
+            if()
         }
     }
 }
