@@ -27,6 +27,10 @@ namespace logindenuevo
             if(txtUsuario.Text=="juancho"&& txtPassword.Text=="123tamarindo")
             {
                 MessageBox.Show("Bienvenido Sr Don Juancho");
+                this.Hide();//Escondemos ventana login
+                Form2 CursosVentana = new Form2();
+                CursosVentana.Show();
+                this.Visible = false;
             }
             else
             {
@@ -35,7 +39,18 @@ namespace logindenuevo
                 txtPassword.Text = "";
                 txtUsuario.Focus();
             }
-            if()
+            
+        }
+
+        private void TxtPassword_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if((int)e.KeyChar==(int)Keys.Enter)
+            {
+                if (txtUsuario.Text=="juancho"&&txtPassword.Text=="123tamarindo")
+                {
+
+                }
+            }
         }
     }
 }

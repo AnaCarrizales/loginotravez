@@ -50,6 +50,7 @@ namespace logindenuevo
             {
                 seleccion = "PayPal";
             }
+            MessageBox.Show("Has seleccionado" + conteo + " cursos y tu método de pago es " + seleccion);
         }
     }
 }
